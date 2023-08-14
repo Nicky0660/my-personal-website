@@ -3,7 +3,7 @@
     padding: 30px;
 
 }
-    h1 {
+h1 {
     color: rgb(17, 24, 237);
     font-weight: bold;
     text-decoration: underline;
@@ -12,12 +12,17 @@
     text-align: center;
 }
 .buttons{
+    position: relative;
     color: blue;
     background-color: red;
 }
 #aboutmebutton{
     background-color: #0f0;
-
+}
+#containerbuttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 body {
     background-color: black ;
@@ -26,16 +31,18 @@ body {
     font-stretch: expanded;
     color: #0f0;
     text-align: center;
-  }
-  div#intro{
-    font-family: Copperplate, papyrus, fantasy;
-    
-  }
-  div {
+}
+div#intro{
+    text-emphasis: filled red;
+}
+div#name {
     font-family: "Brush Script MT" , "lucida handwriting", cursive;
     font-size: 50px;
-    text-emphasis: filled red;
-  }
+    text-emphasis: filled blue;
+}
+#aboutmeparagraph {
+    visibility: hidden;
+}
 
   use css to show different parts 
   visibility hidden propertY?
