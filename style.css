@@ -1,12 +1,13 @@
 h1 {
-    color:black
+    color: rgb(237, 17, 17);
+    font-weight: bold;
+    text-decoration: underline;
+    outline: 10px solid #008000;
+    padding: 10px;
 }
-
-
-
 body {
-    background-color: blue;
+    background-color: black ;
     font-size: larger;
     font-stretch: expanded;
-    color:#f77800
+    color:#00ff00
   }
