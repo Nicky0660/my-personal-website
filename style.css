@@ -1,5 +1,10 @@
-h1 {
-    color: rgb(237, 17, 17);
+* {
+    box-sizing: border-box;
+    padding: 30px;
+
+}
+    h1 {
+    color: rgb(17, 24, 237);
     font-weight: bold;
     text-decoration: underline;
     outline: 15px solid #008000;
@@ -8,16 +13,28 @@ h1 {
 }
 .buttons{
     color: blue;
-   /* background-color: ; */
+    background-color: red;
 }
 #aboutmebutton{
     background-color: #0f0;
+
 }
 body {
     background-color: black ;
     font-size: larger;
+    font-family: Copperplate, papyrus, fantasy;
     font-stretch: expanded;
     color: #0f0;
+    text-align: center;
+  }
+  div#intro{
+    font-family: Copperplate, papyrus, fantasy;
+    
+  }
+  div {
+    font-family: "Brush Script MT" , "lucida handwriting", cursive;
+    font-size: 50px;
+    text-emphasis: filled red;
   }
 
   use css to show different parts 
