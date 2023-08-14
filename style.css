@@ -2,12 +2,23 @@ h1 {
     color: rgb(237, 17, 17);
     font-weight: bold;
     text-decoration: underline;
-    outline: 10px solid #008000;
-    padding: 10px;
+    outline: 15px solid #008000;
+    padding: 25px;
+    text-align: center;
+}
+.buttons{
+    color: blue;
+   /* background-color: ; */
+}
+#aboutmebutton{
+    background-color: #0f0;
 }
 body {
     background-color: black ;
     font-size: larger;
     font-stretch: expanded;
-    color:#00ff00
+    color: #0f0;
   }
+
+  use css to show different parts 
+  visibility hidden propertY?
